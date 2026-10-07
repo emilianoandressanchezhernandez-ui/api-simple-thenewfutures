@@ -1,0 +1,11 @@
+# Secretos y config local: cada mÃ¡quina tiene el suyo.
+# (sin "/" adelante: aplica tanto a api-simple/.env como a api-completa/.env)
+.env
+
+# LibrerÃ­as de Composer: se reconstruyen con "composer install".
+# (idem, aplica a api-simple/vendor/ y a api-completa/vendor/)
+vendor/
+
+# Archivos generados al ejecutar la API localmente.
+**/storage/*.json
+
